@@ -1,0 +1,33 @@
+Package: RSR
+Type: Package
+Title: Easy to calculate Rank Sum Ratio
+Version: 1.0.0
+Author: Chuiqin Fan
+Author@R: person("Chuiqin", "Fan", role = c('aut', 'cre'), email = '19cqfan@stu.edu.cn')
+Maintainer: Chuiqin Fan <19cqfan@stu.edu.cn>
+Description: It is easy to calculate Rank Sum Ratio (RSR) for each evaluation 
+    objects base on different evaluation indicators. And at the same time, you 
+    are able to rank and group these evaluation objects quickly.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    stats,
+    magrittr,
+    data.table,
+    car,
+    agricolae,
+    RColorBrewer,
+    ggpubr,
+    tibble,
+    gvlma,
+    Seurat,
+    methods,
+    utils
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
